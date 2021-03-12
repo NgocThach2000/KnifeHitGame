@@ -1,0 +1,2624 @@
+fileFormatVersion: 2
+guid: 6f953b730bce444a5bf6aa70afe489ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8198744495745583392
+    second: Knives_0
+  - first:
+      213: -2367217350921690036
+    second: Knives_1
+  - first:
+      213: -6530829547020091333
+    second: Knives_2
+  - first:
+      213: -2431308298275409617
+    second: Knives_3
+  - first:
+      213: -8085054790096567342
+    second: Knives_4
+  - first:
+      213: 1257157272029351849
+    second: Knives_5
+  - first:
+      213: -3429614817665348702
+    second: Knives_6
+  - first:
+      213: 8392628982086777449
+    second: Knives_7
+  - first:
+      213: 5068567701358554294
+    second: Knives_8
+  - first:
+      213: -5490361046707794046
+    second: Knives_9
+  - first:
+      213: -4693145987668450699
+    second: Knives_10
+  - first:
+      213: 4065667013066987815
+    second: Knives_11
+  - first:
+      213: -4497220985680082899
+    second: Knives_12
+  - first:
+      213: -6545000722242325255
+    second: Knives_13
+  - first:
+      213: -4898404166247561635
+    second: Knives_14
+  - first:
+      213: 8028338678120322834
+    second: Knives_15
+  - first:
+      213: -8583757996218868704
+    second: Knives_16
+  - first:
+      213: 2006831467364475176
+    second: Knives_17
+  - first:
+      213: -2127374197628610308
+    second: Knives_18
+  - first:
+      213: -3142168262093970389
+    second: Knives_19
+  - first:
+      213: -8707459244503832216
+    second: Knives_20
+  - first:
+      213: 2722202363524135667
+    second: Knives_21
+  - first:
+      213: 2848275695170742186
+    second: Knives_22
+  - first:
+      213: 833208341224606448
+    second: Knives_23
+  - first:
+      213: -5690576795103051750
+    second: Knives_24
+  - first:
+      213: 5639350410547660792
+    second: Knives_25
+  - first:
+      213: 5992024997805741424
+    second: Knives_26
+  - first:
+      213: 3013918323707973427
+    second: Knives_27
+  - first:
+      213: -7072205603184559223
+    second: Knives_28
+  - first:
+      213: -3058252503963504222
+    second: Knives_29
+  - first:
+      213: 4804747848620581228
+    second: Knives_30
+  - first:
+      213: 7959636002238863630
+    second: Knives_31
+  - first:
+      213: -9150767535649938383
+    second: Knives_32
+  - first:
+      213: 3832802921170738485
+    second: Knives_33
+  - first:
+      213: -826971497087360224
+    second: Knives_34
+  - first:
+      213: 3128875578821620005
+    second: Knives_35
+  - first:
+      213: 2521810051857737553
+    second: Knives_36
+  - first:
+      213: 389537643874880646
+    second: Knives_37
+  - first:
+      213: -503625993261617912
+    second: Knives_38
+  - first:
+      213: -6289630256376507377
+    second: Knives_39
+  - first:
+      213: 620570819889399257
+    second: Knives_40
+  - first:
+      213: 6899130175684857002
+    second: Knives_41
+  - first:
+      213: 5753241403943508711
+    second: Knives_42
+  - first:
+      213: -2559443810942974743
+    second: Knives_43
+  - first:
+      213: 8115842588705125537
+    second: Knives_44
+  - first:
+      213: 8781597311212882574
+    second: Knives_45
+  - first:
+      213: -8994097842206585422
+    second: Knives_46
+  - first:
+      213: 7418403078387343407
+    second: Knives_47
+  - first:
+      213: 5919811412150622485
+    second: Knives_48
+  - first:
+      213: -8926274730577706945
+    second: Knives_49
+  - first:
+      213: 5890222524576366299
+    second: Knives_50
+  - first:
+      213: 2509559061342015222
+    second: Knives_51
+  - first:
+      213: 6996752316446256501
+    second: Knives_52
+  - first:
+      213: -7664276494565928318
+    second: Knives_53
+  - first:
+      213: -8852417606855289586
+    second: Knives_54
+  - first:
+      213: 3790801450642695900
+    second: Knives_55
+  - first:
+      213: -8157597010022173512
+    second: Knives_56
+  - first:
+      213: 7549454465735272466
+    second: Knives_57
+  - first:
+      213: 5218444649712355244
+    second: Knives_58
+  - first:
+      213: -3610138983402791582
+    second: Knives_59
+  - first:
+      213: -5949102821298748022
+    second: Knives_60
+  - first:
+      213: -3910030241563786630
+    second: Knives_61
+  - first:
+      213: 7653970669162165552
+    second: Knives_62
+  - first:
+      213: -4222661995135703105
+    second: Knives_63
+  - first:
+      213: -2779969581627739925
+    second: Knives_64
+  - first:
+      213: -382816525550170509
+    second: Knives_65
+  - first:
+      213: -5044202095879346154
+    second: Knives_66
+  - first:
+      213: 8136005715830095406
+    second: Knives_67
+  - first:
+      213: -3599512033200449056
+    second: Knives_68
+  - first:
+      213: -1106136386714623526
+    second: Knives_69
+  - first:
+      213: 5478015745745718945
+    second: Knives_70
+  - first:
+      213: -3222034440750880231
+    second: Knives_71
+  - first:
+      213: -5853683468676567343
+    second: Knives_72
+  - first:
+      213: -425329982951645524
+    second: Knives_73
+  - first:
+      213: -5266019576173742881
+    second: Knives_74
+  - first:
+      213: 4843009719992228188
+    second: Knives_75
+  - first:
+      213: -4578259229582065745
+    second: Knives_76
+  - first:
+      213: -7635628748013793516
+    second: Knives_77
+  - first:
+      213: -4395166683000902486
+    second: Knives_78
+  - first:
+      213: 7150377407663878601
+    second: Knives_79
+  - first:
+      213: 5123481657095476728
+    second: Knives_80
+  - first:
+      213: -4101694945353729706
+    second: Knives_81
+  - first:
+      213: 7787292062850835998
+    second: Knives_82
+  - first:
+      213: -413318834462017391
+    second: Knives_83
+  - first:
+      213: -2237056545939749730
+    second: Knives_84
+  - first:
+      213: -433309361329942000
+    second: Knives_85
+  - first:
+      213: 4290751207239007077
+    second: Knives_86
+  - first:
+      213: 5614367546723381275
+    second: Knives_87
+  - first:
+      213: 7682031243903803626
+    second: Knives_88
+  - first:
+      213: -2374722196389354459
+    second: Knives_89
+  - first:
+      213: 3161610826390662424
+    second: Knives_90
+  - first:
+      213: 5999321046746194680
+    second: Knives_91
+  - first:
+      213: 4985609916677876385
+    second: Knives_92
+  - first:
+      213: -5301025281869252340
+    second: Knives_93
+  - first:
+      213: 5260361564700066219
+    second: Knives_94
+  - first:
+      213: 8145644456587560443
+    second: Knives_95
+  - first:
+      213: -1423446539389390065
+    second: Knives_96
+  - first:
+      213: 5428672011461591888
+    second: Knives_97
+  - first:
+      213: -1515453397849440100
+    second: Knives_98
+  - first:
+      213: -8920855983332267855
+    second: Knives_99
+  - first:
+      213: 3110379833199349144
+    second: Knives_100
+  - first:
+      213: 8070427726463954642
+    second: Knives_101
+  - first:
+      213: 1392982312520317495
+    second: Knives_102
+  - first:
+      213: -2560006198711519771
+    second: Knives_103
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 140
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Knives_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3591
+        width: 82
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029ca191eaac7c170800000000000000
+      internalID: 8198744495745583392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 3839
+        width: 62
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44eb248c54f52fd0800000000000000
+      internalID: -2367217350921690036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 3845
+        width: 40
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b300e39f025dd55a0800000000000000
+      internalID: -6530829547020091333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 3845
+        width: 80
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21b5ddfbf1424ed0800000000000000
+      internalID: -2431308298275409617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2819
+        width: 82
+        height: 1278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d349be318d1ccf80800000000000000
+      internalID: -8085054790096567342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_5
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2561
+        width: 76
+        height: 1534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afcb12d0e1527110800000000000000
+      internalID: 1257157272029351849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_6
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 3841
+        width: 82
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab04a48e7f8760d0800000000000000
+      internalID: -3429614817665348702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_7
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 3585
+        width: 80
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a3ee8d79b987470800000000000000
+      internalID: 8392628982086777449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_8
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 3843
+        width: 76
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcae7f487b275640800000000000000
+      internalID: 5068567701358554294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_9
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 3585
+        width: 158
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f075a97b15ec3b0800000000000000
+      internalID: -5490361046707794046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_10
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 3839
+        width: 78
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572e8fde6989edeb0800000000000000
+      internalID: -4693145987668450699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_11
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 3585
+        width: 70
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72991e88b962c6830800000000000000
+      internalID: 4065667013066987815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3329
+        width: 60
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d284b104759a691c0800000000000000
+      internalID: -4497220985680082899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 3585
+        width: 46
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f43210258c7b25a0800000000000000
+      internalID: -6545000722242325255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 3339
+        width: 82
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5645881d5f550cb0800000000000000
+      internalID: -4898404166247561635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2819
+        width: 80
+        height: 1016
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21714e5ed736a6f60800000000000000
+      internalID: 8028338678120322834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_16
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 2819
+        width: 82
+        height: 1020
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c9475c49d50e880800000000000000
+      internalID: -8583757996218868704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_17
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 3583
+        width: 68
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821e5504692b9db10800000000000000
+      internalID: 2006831467364475176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_18
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 3333
+        width: 62
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8d306407c0a72e0800000000000000
+      internalID: -2127374197628610308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_19
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 3329
+        width: 54
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24e1611d96c464d0800000000000000
+      internalID: -3142168262093970389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_20
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 3331
+        width: 82
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869682383f3e82780800000000000000
+      internalID: -8707459244503832216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_21
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 3333
+        width: 54
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fab59470a437c520800000000000000
+      internalID: 2722202363524135667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_22
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 3329
+        width: 58
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7e70967ab178720800000000000000
+      internalID: 2848275695170742186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_23
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 2817
+        width: 68
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fac5926296209b00800000000000000
+      internalID: 833208341224606448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_24
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 3077
+        width: 36
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a104dc80e820701b0800000000000000
+      internalID: -5690576795103051750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_25
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 3071
+        width: 52
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f785a0e15ff24e40800000000000000
+      internalID: 5639350410547660792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_26
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 3073
+        width: 68
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075d8770df2f72350800000000000000
+      internalID: 5992024997805741424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_27
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 3073
+        width: 46
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f87aa3fb693d920800000000000000
+      internalID: 3013918323707973427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_28
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 2561
+        width: 84
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b38ab597a7add90800000000000000
+      internalID: -7072205603184559223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_29
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2561
+        width: 80
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a17ecb0d87ee85d0800000000000000
+      internalID: -3058252503963504222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_30
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 2309
+        width: 64
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c612a5036b4eda240800000000000000
+      internalID: 4804747848620581228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_31
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2819
+        width: 52
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e099bd6a5ce467e60800000000000000
+      internalID: 7959636002238863630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_32
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 2569
+        width: 42
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134a86fb861f10180800000000000000
+      internalID: -9150767535649938383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_33
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 2829
+        width: 56
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d167223f9d03530800000000000000
+      internalID: 3832802921170738485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_34
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 2817
+        width: 62
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0232cbc0ec10684f0800000000000000
+      internalID: -826971497087360224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_35
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2565
+        width: 60
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521be0ee2cffb6b20800000000000000
+      internalID: 3128875578821620005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_36
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 2567
+        width: 72
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1576dfb81e44ff220800000000000000
+      internalID: 2521810051857737553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_37
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 2569
+        width: 76
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c0ec95c6ae76500800000000000000
+      internalID: 389537643874880646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_38
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2567
+        width: 78
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80decf3d3d2c209f0800000000000000
+      internalID: -503625993261617912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_39
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 2575
+        width: 48
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0411201b9eb6b8a0800000000000000
+      internalID: -6289630256376507377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_40
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 2615
+        width: 60
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d50b7d6fd5bc9800800000000000000
+      internalID: 620570819889399257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_41
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 2561
+        width: 48
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaccfd47752aebf50800000000000000
+      internalID: 6899130175684857002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_42
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2052
+        width: 72
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea5f1d239e97df40800000000000000
+      internalID: 5753241403943508711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1834
+        width: 64
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e40c2a1a670b7cd0800000000000000
+      internalID: -2559443810942974743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_44
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 2313
+        width: 84
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a471c8b5d341a070800000000000000
+      internalID: 8115842588705125537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_45
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 2309
+        width: 76
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a8e574a308ed970800000000000000
+      internalID: 8781597311212882574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_46
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2305
+        width: 44
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd4b205aab8e2380800000000000000
+      internalID: -8994097842206585422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_47
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2307
+        width: 44
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2021ff9b4673f660800000000000000
+      internalID: 7418403078387343407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_48
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 2311
+        width: 52
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5199a866d15672250800000000000000
+      internalID: 5919811412150622485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_49
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 2048
+        width: 64
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30ce5c0d608f1480800000000000000
+      internalID: -8926274730577706945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_50
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 2303
+        width: 78
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdef069ad264eb150800000000000000
+      internalID: 5890222524576366299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_51
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 2309
+        width: 64
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe472a8baeb3d220800000000000000
+      internalID: 2509559061342015222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_52
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2048
+        width: 80
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57dab235925791160800000000000000
+      internalID: 6996752316446256501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_53
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1810
+        width: 74
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2829501a22503a590800000000000000
+      internalID: -7664276494565928318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_54
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1798
+        width: 64
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e051af3b615e52580800000000000000
+      internalID: -8852417606855289586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_55
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 2052
+        width: 68
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6e797b5d1ab9430800000000000000
+      internalID: 3790801450642695900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_56
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 2054
+        width: 48
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4f6dc7db46ace80800000000000000
+      internalID: -8157597010022173512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_57
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 2052
+        width: 48
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218232e76dc05c860800000000000000
+      internalID: 7549454465735272466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_58
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1794
+        width: 42
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7842aa2c3ab6840800000000000000
+      internalID: 5218444649712355244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_59
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 2050
+        width: 78
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d9c70d8b536edc0800000000000000
+      internalID: -3610138983402791582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_60
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1796
+        width: 52
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85c634f08a807da0800000000000000
+      internalID: -5949102821298748022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_61
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 770
+        width: 58
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a724e862638ccb9c0800000000000000
+      internalID: -3910030241563786630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_62
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1540
+        width: 82
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0357ba865cd583a60800000000000000
+      internalID: 7653970669162165552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_63
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1552
+        width: 46
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7e46db9471665c0800000000000000
+      internalID: -4222661995135703105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_64
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1820
+        width: 56
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0ffa8f4609b69d0800000000000000
+      internalID: -2779969581627739925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_65
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1798
+        width: 74
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ece64f566ffaaf0800000000000000
+      internalID: -382816525550170509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_66
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1796
+        width: 48
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618a4db4be46ff9b0800000000000000
+      internalID: -5044202095879346154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_67
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1796
+        width: 54
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2eb9969716e8e070800000000000000
+      internalID: 8136005715830095406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_68
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1544
+        width: 46
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9d75870e6fb0ec0800000000000000
+      internalID: -3599512033200449056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_69
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 324
+        height: 1790
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1adbc11d636a0f0800000000000000
+      internalID: -1106136386714623526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_70
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1560
+        width: 38
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae8b270c42d50c40800000000000000
+      internalID: 5478015745745718945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_71
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1552
+        width: 60
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a28f84fb80943d0800000000000000
+      internalID: -3222034440750880231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_72
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1544
+        width: 62
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dee4fd36e983cea0800000000000000
+      internalID: -5853683468676567343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_73
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1280
+        width: 62
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae18dd42ace81af0800000000000000
+      internalID: -425329982951645524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_74
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1544
+        width: 62
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd439e598175be6b0800000000000000
+      internalID: -5266019576173742881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_75
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1536
+        width: 58
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5996e35ea3d53340800000000000000
+      internalID: 4843009719992228188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_76
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1284
+        width: 56
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf7b13cc71c670c0800000000000000
+      internalID: -4578259229582065745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_77
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1296
+        width: 54
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f80e5eb1cc80690800000000000000
+      internalID: -7635628748013793516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_78
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1280
+        width: 56
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac691b303b3103c0800000000000000
+      internalID: -4395166683000902486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_79
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1308
+        width: 36
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1b8c13e5e3b3360800000000000000
+      internalID: 7150377407663878601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_80
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 770
+        width: 74
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5d768fb634a1740800000000000000
+      internalID: 5123481657095476728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_81
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 768
+        width: 82
+        height: 762
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659fc2dcd2ad317c0800000000000000
+      internalID: -4101694945353729706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_82
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 774
+        width: 62
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1661705fd4021c60800000000000000
+      internalID: 7787292062850835998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_83
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1024
+        width: 80
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198b9ecb5b8934af0800000000000000
+      internalID: -413318834462017391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_84
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1030
+        width: 60
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e948cc48ce064f0e0800000000000000
+      internalID: -2237056545939749730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_85
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1030
+        width: 70
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012d3108e639cf9f0800000000000000
+      internalID: -433309361329942000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_86
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1042
+        width: 56
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b3f075d7fcb8b30800000000000000
+      internalID: 4290751207239007077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_87
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 512
+        width: 48
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10bdec998d3aed40800000000000000
+      internalID: 5614367546723381275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_88
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 514
+        width: 42
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0a65617be0c9a60800000000000000
+      internalID: 7682031243903803626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_89
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 768
+        width: 66
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5242af38eba4b0fd0800000000000000
+      internalID: -2374722196389354459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_90
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 256
+        width: 70
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d6b01bb4c40eb20800000000000000
+      internalID: 3161610826390662424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_91
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 0
+        width: 74
+        height: 1022
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2e4dcc4bed14350800000000000000
+      internalID: 5999321046746194680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 764
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aaef38edc1703540800000000000000
+      internalID: 4985609916677876385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_93
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 514
+        width: 82
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0971d89799fe66b0800000000000000
+      internalID: -5301025281869252340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_94
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 522
+        width: 62
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1c016f8fe800940800000000000000
+      internalID: 5260361564700066219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_95
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 256
+        width: 82
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5088dc9742b0170800000000000000
+      internalID: 8145644456587560443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_96
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 260
+        width: 74
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03bfe60ae6ee3ce0800000000000000
+      internalID: -1423446539389390065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_97
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 258
+        width: 74
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053064d9e64865b40800000000000000
+      internalID: 5428672011461591888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_98
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 258
+        width: 60
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c908683f92708fae0800000000000000
+      internalID: -1515453397849440100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_99
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 0
+        width: 68
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8ef057fb0c23480800000000000000
+      internalID: -8920855983332267855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_100
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 56
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89dc2629af94a2b20800000000000000
+      internalID: 3110379833199349144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_101
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 0
+        width: 56
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dee85d124befff60800000000000000
+      internalID: 8070427726463954642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_102
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 2
+        width: 56
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73afc2c680ed45310800000000000000
+      internalID: 1392982312520317495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knives_103
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 0
+        width: 80
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5700ffce7097cd0800000000000000
+      internalID: -2560006198711519771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
