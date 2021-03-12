@@ -7,6 +7,7 @@ TagManager:
   - Knife
   - Apple
   - Wheel
+  - Icon
   layers:
   - Default
   - TransparentFX

@@ -103,7 +103,7 @@ public class LevelManager : MonoBehaviour
             {
                 tmpKnife = Instantiate(GameManager.Instance.SelectedKnifePrefab, knifeSpawnPosition.position, Quaternion.identity, knifeSpawnPosition).gameObject;
             }
-            float knifeScaleInScreen = GameManager.Instance.ScreenWidth * WheelScale / tmpKnife.GetComponent<SpriteRenderer>().bounds.size.y;
+            float knifeScaleInScreen = GameManager.Instance.ScreenWidth * knifeScale / tmpKnife.GetComponent<SpriteRenderer>().bounds.size.y;
             tmpKnife.transform.localScale = Vector3.one * knifeScaleInScreen;
             currentWheel = tmpKnife.GetComponent<Wheel>();
         }
