@@ -22,37 +22,37 @@ public class GameManager : MonoBehaviour
 
     public int SelectedKnife
     {
-        get => PlayerPrefs.GetInt(key: SELECTED_KNIFE, defaultValue: 0);
+        get => PlayerPrefs.GetInt(SELECTED_KNIFE, 0);
         set => PlayerPrefs.SetInt(SELECTED_KNIFE, value);
     }
 
     public int HighScore
     {
-        get => PlayerPrefs.GetInt(key: HIGHSCORE, defaultValue: 0);
+        get => PlayerPrefs.GetInt(HIGHSCORE, 0);
         set => PlayerPrefs.SetInt(HIGHSCORE, value);
     }
 
     public int TotalApple
     {
-        get => PlayerPrefs.GetInt(key: TOTAL_APPLE, defaultValue: 0);
+        get => PlayerPrefs.GetInt(TOTAL_APPLE, 0);
         set => PlayerPrefs.SetInt(TOTAL_APPLE, value);
     }
 
     public bool SoundSettings
     {
-        get => PlayerPrefs.GetInt(key: SOUND_SETTINGS, defaultValue: 1) == 1;
+        get => PlayerPrefs.GetInt(SOUND_SETTINGS, 1) == 1;
         set => PlayerPrefs.SetInt(SOUND_SETTINGS, value ? 1 : 0);
     }
 
     public bool VibrationSettings
     {
-        get => PlayerPrefs.GetInt(key: VIBRATION_SETTINGS, defaultValue: 1) == 1;
+        get => PlayerPrefs.GetInt(VIBRATION_SETTINGS, 1) == 1;
         set => PlayerPrefs.SetInt(VIBRATION_SETTINGS, value ? 1 : 0);
     }
 
     private void Awake()
     {
-        if(Instance) //simpleton
+        if(Instance) 
         {
             Destroy(gameObject);
         }
@@ -62,13 +62,5 @@ public class GameManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
         }
     }
-    private void Start()
-    {
-        
-    }
-
-    private void Update()
-    {
-        
-    }
+ 
 }

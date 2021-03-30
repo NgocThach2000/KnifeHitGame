@@ -32,6 +32,18 @@ public class Wheel : MonoBehaviour
         if(isBoss)
         {
             //Do something
+            if(GameManager.Instance.Stage < 5)
+            {
+                GetComponent<SpriteRenderer>().sprite = firstWheel;
+            }
+            else if (GameManager.Instance.Stage > 5 && GameManager.Instance.Stage < 10)
+            {
+                GetComponent<SpriteRenderer>().sprite = secondWheel;
+            }
+            else if(GameManager.Instance.Stage > 10)
+            {
+                GetComponent<SpriteRenderer>().sprite = thirdWheel;
+            }
         }
         RotateWheel();
         levelIndex = UnityEngine.Random.Range(0, levels.Count);
@@ -44,16 +56,24 @@ public class Wheel : MonoBehaviour
 
     private void RotateWheel()
     {   
-        Mathf.LerpAngle(transform.localEulerAngles.z, transform.localEulerAngles.z + rotationZ, rotationTime);
+        transform.Rotate(0f,0f, rotationZ * Time.deltaTime);
     }
+
+    private void Update()
+    {
+        RotateWheel();
+
+    }
+
     private void SpawnKnife()
     {
         foreach (float knifeAngle in levels[levelIndex].knifeAngleFromWheel)
         {
             GameObject knifeTmp = Instantiate(knifePrefab);
             knifeTmp.transform.SetParent(transform);
-            SetRotationFromWheel(transform, knifeTmp.transform, knifeAngle, 0.20f, 180f);
-            knifeTmp.transform.localScale = new Vector3(1.3f, 1.3f, 1.3f);
+            SetRotationFromWheel(transform, knifeTmp.transform, knifeAngle, 0f, 180f);
+            knifeTmp.transform.localScale = new Vector3(1f, 1f, 1f);
+            knifeTmp.GetComponent<Rigidbody2D>().isKinematic = true;
         }
     }
     private void SpawnApple()
@@ -62,13 +82,13 @@ public class Wheel : MonoBehaviour
         {
             GameObject appleTmp = Instantiate(applePrefab);
             appleTmp.transform.SetParent(transform);
-            SetRotationFromWheel(transform, appleTmp.transform, appleAngle, 0.25f, 0f);
-            appleTmp.transform.localScale = new Vector3(0.15f,0.15f,0.5f);
+            SetRotationFromWheel(transform, appleTmp.transform, appleAngle, 0.35f, 0f);
+            appleTmp.transform.localScale = new Vector3(0.15f,0.15f,0.1f);
         }
     }
     public void SetRotationFromWheel(Transform wheel, Transform objectToPlace, float angle, float spaceFromObject, float objectRotation)
     {
-        Vector2 offSet = new Vector2(Mathf.Sin(angle * Mathf.Deg2Rad), Mathf.Cos(angle * Mathf.Deg2Rad)) * (wheel.GetComponent<CircleCollider2D>().radius + spaceFromObject);
+        Vector2 offSet = new Vector2(Mathf.Sin(angle * Mathf.Deg2Rad), Mathf.Cos(angle * Mathf.Deg2Rad)) * (wheel.GetComponent<CircleCollider2D>().radius + spaceFromObject); //Change Z
         objectToPlace.localPosition = (Vector2) wheel.localPosition + offSet;
         objectToPlace.localRotation = Quaternion.Euler(0, 0, -angle + objectRotation);
     }

@@ -21,6 +21,9 @@ public class Apple : MonoBehaviour
         {
             myCollider2D.enabled = false;
             iot.enabled = false;
+            transform.parent = null;
+            GameManager.Instance.Score++;
+            //GameManager.Instance.AppleScore++;
             appleParticle.Play();
             Destroy(gameObject, t: 2f);
         }

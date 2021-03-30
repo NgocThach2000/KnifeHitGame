@@ -1,13 +1,16 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
+using System.Runtime.InteropServices.WindowsRuntime;
 
 public class LevelManager : MonoBehaviour
 {
     public static LevelManager Instance;
     
-    public List<Wheel> wheels;
-    public List<Boss> bosses;
+    public Wheel[] wheels;
+    public Boss[] bosses;
 
     [SerializeField] private GameObject knifePrefab;
 
@@ -23,6 +26,12 @@ public class LevelManager : MonoBehaviour
     private Wheel currentWheel;
     private Knife currentKnife;
 
+    public string BossName
+    {
+        get { return bossName; }
+        set { bossName = value; }
+    }
+
     public int TotalSpawnKnife {get; set;}
 
     private void Awake()
@@ -34,7 +43,7 @@ public class LevelManager : MonoBehaviour
         else
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
+            
         }
         InitializedGame();
     }
@@ -59,7 +68,6 @@ public class LevelManager : MonoBehaviour
         GameManager.Instance.IsGameOver = false;
         GameManager.Instance.Score = 0;
         GameManager.Instance.Stage = 1;
-
         SetupGame();
     }
     private void SetupGame()
@@ -69,6 +77,8 @@ public class LevelManager : MonoBehaviour
 
         TotalSpawnKnife = 0;
         StartCoroutine( routine: GenerateKnife());
+
+        
     }
     private void SpawnWheel()
     {
@@ -76,8 +86,9 @@ public class LevelManager : MonoBehaviour
         if(GameManager.Instance.Stage % 5 == 0)
         {
             //create a boss wheel
-            Boss newBoss = bosses[Random.Range(0, bosses.Count)];
+            Boss newBoss = bosses[Random.Range(0, bosses.Length)];
             tmpWheel = Instantiate(newBoss.bossPrefab, wheelSpawnPosition.position, Quaternion.identity, wheelSpawnPosition).gameObject;
+            bossName = "Boss " + newBoss.bossName;
         }
         else
         {
@@ -103,9 +114,9 @@ public class LevelManager : MonoBehaviour
             {
                 tmpKnife = Instantiate(GameManager.Instance.SelectedKnifePrefab, knifeSpawnPosition.position, Quaternion.identity, knifeSpawnPosition).gameObject;
             }
-            float knifeScaleInScreen = GameManager.Instance.ScreenWidth * knifeScale / tmpKnife.GetComponent<SpriteRenderer>().bounds.size.y;
+            float knifeScaleInScreen = GameManager.Instance.ScreenHeight * knifeScale / tmpKnife.GetComponent<SpriteRenderer>().bounds.size.y;
             tmpKnife.transform.localScale = Vector3.one * knifeScaleInScreen;
-            currentWheel = tmpKnife.GetComponent<Wheel>();
+            currentKnife = tmpKnife.GetComponent<Knife>();
         }
     }
     public void NextLevel()
@@ -116,8 +127,9 @@ public class LevelManager : MonoBehaviour
         }
         if(GameManager.Instance.Stage % 5 == 0)
         {
-            GameManager.Instance.Stage++;
             //UIManager need boss fight
+            GameManager.Instance.Stage++;
+            StartCoroutine(BossDefeated());
         }
         else
         {
@@ -125,6 +137,7 @@ public class LevelManager : MonoBehaviour
             if(GameManager.Instance.Stage % 5 == 0)
             {
                 //UIManager display boss start fight
+                StartCoroutine(BossFight());
             }
             else
             {
@@ -132,8 +145,23 @@ public class LevelManager : MonoBehaviour
             }
         }
     }
+    
+    private IEnumerator BossFight()
+    {
+        StartCoroutine(UIManager.Instance.BossStart());
+        yield return new WaitForSeconds(2f);
+        SetupGame();
+    }
+
+    private IEnumerator BossDefeated()
+    {
+        StartCoroutine(UIManager.Instance.BossDefeated());
+        yield return new WaitForSeconds(2f);
+        SetupGame();
+    }
 }
 
+[Serializable] 
 public class Boss
 {
     public GameObject bossPrefab;

@@ -29,27 +29,33 @@ public class Knife : MonoBehaviour
         if(!IsReleased)
         {
             IsReleased = true;
-            myRigidbody2D.AddForce(new Vector2(x: 0f, y: speed), ForceMode2D.Impulse);
+            myRigidbody2D.AddForce(new Vector2(0f, speed), ForceMode2D.Impulse);
         }
     }
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if(other.gameObject.CompareTag("Wheel") && !Hit)
+        if(other.gameObject.CompareTag("Wheel") && !Hit && !GameManager.Instance.IsGameOver && IsReleased)
         {
-            // transform.SetParent(other.transform);
-            // myRigidbody2D.velocity = Vector2.zero;
-            // myRigidbody2D.isKinematic = true;
             other.gameObject.GetComponent<Wheel>().KnifeHit(this);
+            GameManager.Instance.Score++;
         }
-        else if(other.gameObject.CompareTag("Knife") && !Hit && IsReleased) 
+        else if(other.gameObject.CompareTag("Knife") && !Hit && IsReleased && !GameManager.Instance.IsGameOver && other.gameObject.GetComponent<Knife>().IsReleased) 
         {
+            Hit = true;
             transform.SetParent(other.transform);
             myRigidbody2D.velocity = Vector2.zero;
             myRigidbody2D.isKinematic = true;
 
+            GameManager.Instance.IsGameOver = true;
+            Invoke(nameof(GameOver), 0.5f);
             //GameOver
             //SoundManager = sound
             //Restart level
         }
+    }
+
+    private void GameOver()
+    {
+        UIManager.Instance.GameOver();
     }
 }
