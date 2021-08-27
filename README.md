@@ -1,5 +1,4 @@
-# KnifeHitGame
-I make a Knife Hit game clone
+# KnifeHitGame 
 Setup
 - step 1: clone project
 - step 2: git checkout Dev
