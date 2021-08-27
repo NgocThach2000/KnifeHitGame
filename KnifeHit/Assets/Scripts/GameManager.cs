@@ -49,6 +49,17 @@ public class GameManager : MonoBehaviour
         get => PlayerPrefs.GetInt(VIBRATION_SETTINGS, 1) == 1;
         set => PlayerPrefs.SetInt(VIBRATION_SETTINGS, value ? 1 : 0);
     }
+   
+    public static void SetBool(string key, bool value)
+    {
+        PlayerPrefs.SetInt(key, value ? 1 : 0);
+    }
+
+    public static bool GetBool(string key, bool defaultValue = false)
+    {
+        int defaultVal = defaultValue ? 1 : 0;
+        return PlayerPrefs.GetInt(key, defaultVal) == 1;
+    }
 
     private void Awake()
     {
@@ -62,5 +73,4 @@ public class GameManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
         }
     }
- 
 }

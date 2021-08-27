@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &9155268458554516577
+--- !u!1 &8553057422077527371
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,10 +8,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 9101184422424118457}
-  - component: {fileID: 1875931077785224108}
-  - component: {fileID: 6585810769919154841}
-  - component: {fileID: 6126457912532105324}
+  - component: {fileID: 918311482178763593}
+  - component: {fileID: 1927142603492786877}
+  - component: {fileID: 4003640495995312986}
+  - component: {fileID: 5355953508146280651}
   m_Layer: 0
   m_Name: Boss_Meat
   m_TagString: Wheel
@@ -19,13 +19,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &9101184422424118457
+--- !u!4 &918311482178763593
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9155268458554516577}
+  m_GameObject: {fileID: 8553057422077527371}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -33,13 +33,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1875931077785224108
+--- !u!212 &1927142603492786877
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9155268458554516577}
+  m_GameObject: {fileID: 8553057422077527371}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -83,13 +83,48 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &6585810769919154841
+--- !u!114 &4003640495995312986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8553057422077527371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49b30298b92744448e397d09bdfc981, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  availableKnifes: 7
+  firstWheel: {fileID: 21300000, guid: 3dfb742232c5b471185c026fb59b6b87, type: 3}
+  secondWheel: {fileID: 21300000, guid: 169d9865b0da944a3bfe268483d2f4e9, type: 3}
+  thirdWheel: {fileID: 21300000, guid: 227395be97363461296b90d6329e48c5, type: 3}
+  fourWheel: {fileID: 21300000, guid: 0f773223e9cbc48ecba5c65eccd0a169, type: 3}
+  isBoss: 1
+  applePrefab: {fileID: 5007473624481546861, guid: 703fcb40549f840dc97bd9bbca6c21f0,
+    type: 3}
+  knifePrefab: {fileID: 4358767564217747201, guid: 687a485c2dad24b2cb1cc2d9e8d60e9b,
+    type: 3}
+  duration: 1
+  speed: -400
+  roundStartTime: 0
+  levels:
+  - appleChance: 1
+    appleAngleFromWheel:
+    - 140
+    - 320
+    knifeAngleFromWheel:
+    - 80
+    - 110
+    - 180
+  Knifes: []
+--- !u!58 &5355953508146280651
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9155268458554516577}
+  m_GameObject: {fileID: 8553057422077527371}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -99,37 +134,3 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 2.1
---- !u!114 &6126457912532105324
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9155268458554516577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a49b30298b92744448e397d09bdfc981, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  availableKnifes: 7
-  firstWheel: {fileID: 21300000, guid: 0f773223e9cbc48ecba5c65eccd0a169, type: 3}
-  secondWheel: {fileID: 21300000, guid: 2b06b3903c10f4154ba42b2a422f6e29, type: 3}
-  thirdWheel: {fileID: 21300000, guid: 227395be97363461296b90d6329e48c5, type: 3}
-  isBoss: 1
-  applePrefab: {fileID: 5007473624481546861, guid: 703fcb40549f840dc97bd9bbca6c21f0,
-    type: 3}
-  knifePrefab: {fileID: 4358767564217747201, guid: 687a485c2dad24b2cb1cc2d9e8d60e9b,
-    type: 3}
-  rotationTime: 0
-  rotationZ: 250
-  levels:
-  - appleChance: 0.755
-    appleAngleFromWheel:
-    - 20
-    - 50
-    - 80
-    - 180
-    knifeAngleFromWheel:
-    - 120
-    - 320
-  Knifes: []

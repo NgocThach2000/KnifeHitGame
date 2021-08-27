@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Random = System.Random;
+using System.Security;
+using UnityEngine.UI;
 
 
 public class RewardController : MonoBehaviour
@@ -19,6 +21,9 @@ public class RewardController : MonoBehaviour
     private const string NEXT_REWARD = "RewardTime";
 
     public DateTime NextRewardTime => GetNextRewardTime();
+
+    public TimeSpan TimeToReward => NextRewardTime.Subtract(DateTime.Now);
+  
 
     private void Awake()
     {
@@ -57,7 +62,7 @@ public class RewardController : MonoBehaviour
 
     private DateTime GetNextRewardTime()
     {
-        string nextReward = PlayerPrefs.GetString(key: NEXT_REWARD, defaultValue: string.Empty);
+        string nextReward = PlayerPrefs.GetString(NEXT_REWARD, string.Empty);
         if(!string.IsNullOrEmpty(nextReward))
         {
             return DateTime.FromBinary(Convert.ToInt64(nextReward));

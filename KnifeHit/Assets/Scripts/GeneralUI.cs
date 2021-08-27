@@ -20,10 +20,10 @@ public class GeneralUI : MonoBehaviour
     [SerializeField] private GameObject vibrateOn;
     [SerializeField] private GameObject vibrateOff;
     [SerializeField] private Text totalApple;
+    [SerializeField] private Text highScore;
 
     private void Awake()
     {
-
         if(Instance)
         {
             Destroy(gameObject);
@@ -33,63 +33,90 @@ public class GeneralUI : MonoBehaviour
             Instance = this;
         }
     }
-
-    private void Start()
-    {
-        //closeSettings();
-    }
-
     private void Update()
     {
         totalApple.text = GameManager.Instance.TotalApple.ToString();
+        highScore.text = GameManager.Instance.HighScore.ToString();
+        UpdatedSoundsUI();
+        UpdatedVibrateUI();
     }
 
     public void openShop()
     {
         shopPanel.SetActive(true);
+        SoundManager.Instance.PlayButton();
     }
 
     public void closeShop()
     {
         shopPanel.SetActive(false);
+        SoundManager.Instance.PlayButton();
     }
 
     public void openSettings()
     {
         settingsPanel.SetActive(true);
+        SoundManager.Instance.PlayButton();
     }
 
     public void closeSettings()
     {
+  
         settingsPanel.SetActive(false);
+        SoundManager.Instance.PlayButton();
     }
 
     public void SoundsOnOff()
     {
-        if(soundsOn.activeSelf)
+        SoundManager.Instance.PlayButton();
+        if(GameManager.Instance.SoundSettings)
         {
-            soundsOn.SetActive(false);
-            soundsOff.SetActive(true);
+           GameManager.Instance.SoundSettings = false;
         }
         else
         {
-            soundsOn.SetActive(true);
-            soundsOff.SetActive(false);
+           GameManager.Instance.SoundSettings = true;
         }
     }
 
     public void VibrateOnOff()
     {
-        if(vibrateOn.activeSelf)
+        SoundManager.Instance.PlayButton();
+        if(GameManager.Instance.VibrationSettings)
         {
-            vibrateOn.SetActive(false);
-            vibrateOff.SetActive(true);
+            GameManager.Instance.VibrationSettings = false;
         }
         else
+        {
+            GameManager.Instance.VibrationSettings = true;
+        }
+    }
+
+    private void UpdatedSoundsUI()
+    {
+        if(GameManager.Instance.SoundSettings)
+        {
+            soundsOn.SetActive(true);
+            soundsOff.SetActive(false);
+        }
+        else
+        {
+            soundsOn.SetActive(false);
+            soundsOff.SetActive(true);
+        }
+    }
+
+    private void UpdatedVibrateUI()
+    {
+        if(GameManager.Instance.VibrationSettings)
         {
             vibrateOn.SetActive(true);
             vibrateOff.SetActive(false);
         }
+        else
+        {
+            vibrateOn.SetActive(false);
+            vibrateOff.SetActive(true);
+        }
     }
-
 }

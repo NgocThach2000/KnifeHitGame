@@ -1,13 +1,15 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
-
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using System.Runtime.InteropServices.WindowsRuntime;
+using Random = UnityEngine.Random;
 
 public class Knife : MonoBehaviour
 {
-    // Start is called before the first frame update
-    [SerializeField] private float speed; //hide speed data => prevent crack 
+    [SerializeField] private float speed; 
     public Rigidbody2D myRigidbody2D;
     public bool IsReleased { get; set; }
     public bool Hit { get; set; }
@@ -16,20 +18,21 @@ public class Knife : MonoBehaviour
         myRigidbody2D = GetComponent<Rigidbody2D>();
 
     }
-    //Update is called once per frame
+
     public void Update()
     {
         if(Input.GetMouseButtonDown(0))
         {
-            KnifeFire();
+            FireKnife();
         }
     }
-    public void KnifeFire()
+    public void FireKnife()
     {
         if(!IsReleased)
         {
             IsReleased = true;
             myRigidbody2D.AddForce(new Vector2(0f, speed), ForceMode2D.Impulse);
+            SoundManager.Instance.PlayFireKnife();
         }
     }
     private void OnCollisionEnter2D(Collision2D other)
@@ -38,24 +41,29 @@ public class Knife : MonoBehaviour
         {
             other.gameObject.GetComponent<Wheel>().KnifeHit(this);
             GameManager.Instance.Score++;
+            SoundManager.Instance.PlayWheelHit();
         }
-        else if(other.gameObject.CompareTag("Knife") && !Hit && IsReleased && !GameManager.Instance.IsGameOver && other.gameObject.GetComponent<Knife>().IsReleased) 
+        else if(other.gameObject.CompareTag("Knife") && !Hit && !GameManager.Instance.IsGameOver && other.gameObject.GetComponent<Knife>().IsReleased) 
         {
             Hit = true;
             transform.SetParent(other.transform);
+            SoundManager.Instance.PlayKnifeHit();
+            SoundManager.Instance.Vibrate();
             myRigidbody2D.velocity = Vector2.zero;
-            myRigidbody2D.isKinematic = true;
-
+            //myRigidbody2D.isKinematic = true;
+            myRigidbody2D.freezeRotation = false;
+            myRigidbody2D.angularVelocity = Random.Range (20f, 50f) * 25f;
+            myRigidbody2D.AddForce (new Vector2 (Random.Range (-5f, 5f), -30f), ForceMode2D.Impulse);
             GameManager.Instance.IsGameOver = true;
             Invoke(nameof(GameOver), 0.5f);
-            //GameOver
-            //SoundManager = sound
-            //Restart level
         }
     }
-
     private void GameOver()
     {
+        //SoundManager.Instance.PlayGameOver();
         UIManager.Instance.GameOver();
+        
     }
+
+   
 }

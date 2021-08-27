@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Wheel : MonoBehaviour
 {
@@ -9,14 +10,16 @@ public class Wheel : MonoBehaviour
     [SerializeField] private Sprite firstWheel;
     [SerializeField] private Sprite secondWheel;
     [SerializeField] private Sprite thirdWheel;
+    [SerializeField] private Sprite fourWheel;
     [SerializeField] private bool isBoss;
 
     [Header( header: "Prefabs")] 
     [SerializeField] private GameObject applePrefab;
     [SerializeField] private GameObject knifePrefab;
     [Header( header: "Settings")] 
-    [SerializeField] private float rotationTime;
-    [SerializeField] private float rotationZ;
+    [SerializeField] private float duration;
+    [SerializeField] private float speed;
+    [SerializeField] private float roundStartTime;
 
     public List<Level> levels;
 
@@ -29,20 +32,24 @@ public class Wheel : MonoBehaviour
 
     private void Start()
     {
-        if(isBoss)
+        if(!isBoss)
         {
             //Do something
-            if(GameManager.Instance.Stage < 5)
+            if(GameManager.Instance.Stage < 10)
             {
                 GetComponent<SpriteRenderer>().sprite = firstWheel;
             }
-            else if (GameManager.Instance.Stage > 5 && GameManager.Instance.Stage < 10)
+            else if (GameManager.Instance.Stage > 10 && GameManager.Instance.Stage < 20)
             {
                 GetComponent<SpriteRenderer>().sprite = secondWheel;
             }
-            else if(GameManager.Instance.Stage > 10)
+            else if(GameManager.Instance.Stage > 20 && GameManager.Instance.Stage < 30)
             {
                 GetComponent<SpriteRenderer>().sprite = thirdWheel;
+            }
+            else if(GameManager.Instance.Stage > 30)
+            {
+                GetComponent<SpriteRenderer>().sprite = fourWheel;
             }
         }
         RotateWheel();
@@ -56,13 +63,33 @@ public class Wheel : MonoBehaviour
 
     private void RotateWheel()
     {   
-        transform.Rotate(0f,0f, rotationZ * Time.deltaTime);
+        //transform.Rotate(0f,0f, speed * Time.deltaTime);
+        float t = (Time.time - roundStartTime) / duration;
+        t = 1 - t;
+        float curRotationSpeed = speed * t;
+        transform.Rotate(new Vector3(0, 0, curRotationSpeed) * Time.deltaTime);
+        if (t < 0.05f)
+        {
+            if(!isBoss)
+            {
+                roundStartTime = Time.time;
+                float roundPower = Random.Range(0,1f);
+                speed = -150 - 150*roundPower;
+                duration = 5 + 5 * roundPower;
+            }
+            else
+            {
+                roundStartTime = Time.time;
+                float roundPower = Random.Range(0,1f);
+                speed = -370 - 50*roundPower;
+                duration = 3 + 5 * roundPower;
+            }
+        }    
     }
 
     private void Update()
     {
         RotateWheel();
-
     }
 
     private void SpawnKnife()
@@ -72,7 +99,7 @@ public class Wheel : MonoBehaviour
             GameObject knifeTmp = Instantiate(knifePrefab);
             knifeTmp.transform.SetParent(transform);
             SetRotationFromWheel(transform, knifeTmp.transform, knifeAngle, 0f, 180f);
-            knifeTmp.transform.localScale = new Vector3(1f, 1f, 1f);
+            knifeTmp.transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
             knifeTmp.GetComponent<Rigidbody2D>().isKinematic = true;
         }
     }
@@ -127,4 +154,5 @@ public class Level
     public List<float> appleAngleFromWheel = new List<float>();
     public List<float> knifeAngleFromWheel = new List<float>();
 }
+
 

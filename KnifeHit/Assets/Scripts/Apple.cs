@@ -22,10 +22,16 @@ public class Apple : MonoBehaviour
             myCollider2D.enabled = false;
             iot.enabled = false;
             transform.parent = null;
+            SoundManager.Instance.PlayAppleHit();
+
             GameManager.Instance.Score++;
-            //GameManager.Instance.AppleScore++;
+            GameManager.Instance.TotalApple++;
             appleParticle.Play();
             Destroy(gameObject, t: 2f);
         }
     }
 }
+
+
+
+

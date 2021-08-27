@@ -96,24 +96,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   availableKnifes: 7
-  firstWheel: {fileID: 21300000, guid: 0f773223e9cbc48ecba5c65eccd0a169, type: 3}
-  secondWheel: {fileID: 21300000, guid: 0f773223e9cbc48ecba5c65eccd0a169, type: 3}
+  firstWheel: {fileID: 21300000, guid: 3dfb742232c5b471185c026fb59b6b87, type: 3}
+  secondWheel: {fileID: 21300000, guid: 169d9865b0da944a3bfe268483d2f4e9, type: 3}
   thirdWheel: {fileID: 21300000, guid: 227395be97363461296b90d6329e48c5, type: 3}
+  fourWheel: {fileID: 21300000, guid: 0f773223e9cbc48ecba5c65eccd0a169, type: 3}
   isBoss: 1
   applePrefab: {fileID: 5007473624481546861, guid: 703fcb40549f840dc97bd9bbca6c21f0,
     type: 3}
   knifePrefab: {fileID: 4358767564217747201, guid: 687a485c2dad24b2cb1cc2d9e8d60e9b,
     type: 3}
-  rotationTime: 0
-  rotationZ: 250
+  duration: 3
+  speed: -400
+  roundStartTime: 0
   levels:
   - appleChance: 1
     appleAngleFromWheel:
     - 140
     - 320
     knifeAngleFromWheel:
-    - 10
-    - 260
+    - 80
+    - 110
+    - 170
   Knifes: []
 --- !u!58 &5355953508146280651
 CircleCollider2D:

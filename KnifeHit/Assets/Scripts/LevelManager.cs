@@ -57,7 +57,7 @@ public class LevelManager : MonoBehaviour
         if(Input.GetMouseButtonDown(0) && !currentKnife.IsReleased)
         {
             knifeCounter.Instance.KnifeHit(TotalSpawnKnife);
-            currentKnife.KnifeFire();
+            currentKnife.FireKnife();
             StartCoroutine(routine: GenerateKnife());
         }
         
@@ -70,15 +70,13 @@ public class LevelManager : MonoBehaviour
         GameManager.Instance.Stage = 1;
         SetupGame();
     }
+
     private void SetupGame()
     {
         SpawnWheel();
         knifeCounter.Instance.SetupKnife(currentWheel.AvailableKnifes);
-
         TotalSpawnKnife = 0;
         StartCoroutine( routine: GenerateKnife());
-
-        
     }
     private void SpawnWheel()
     {
@@ -121,38 +119,44 @@ public class LevelManager : MonoBehaviour
     }
     public void NextLevel()
     {
-        if(currentWheel != null)
+        if(GameManager.Instance.Stage <= 39)
         {
-            currentWheel.DestroyKnife();
-        }
-        if(GameManager.Instance.Stage % 5 == 0)
-        {
-            //UIManager need boss fight
-            GameManager.Instance.Stage++;
-            StartCoroutine(BossDefeated());
-        }
-        else
-        {
-            GameManager.Instance.Stage++;
+            SoundManager.Instance.PlayWheelBreak();
+            if(currentWheel != null)
+            {
+                currentWheel.DestroyKnife();
+            }
             if(GameManager.Instance.Stage % 5 == 0)
             {
-                //UIManager display boss start fight
-                StartCoroutine(BossFight());
+                //UIManager need boss fight
+                GameManager.Instance.Stage++;
+                StartCoroutine(BossDefeated());
             }
             else
             {
-                Invoke(nameof(SetupGame), time: 0.3f);
+                GameManager.Instance.Stage++;
+                if(GameManager.Instance.Stage % 5 == 0)
+                {
+                    //UIManager display boss start fight
+                    StartCoroutine(BossFight());
+                }
+                else
+                {
+                    Invoke(nameof(SetupGame), time: 0.3f);
+                }
             }
         }
+        else {
+            UIManager.Instance.Victory();
+        }
+        
     }
-    
     private IEnumerator BossFight()
     {
         StartCoroutine(UIManager.Instance.BossStart());
         yield return new WaitForSeconds(2f);
         SetupGame();
     }
-
     private IEnumerator BossDefeated()
     {
         StartCoroutine(UIManager.Instance.BossDefeated());
@@ -160,7 +164,6 @@ public class LevelManager : MonoBehaviour
         SetupGame();
     }
 }
-
 [Serializable] 
 public class Boss
 {
